@@ -1,0 +1,50 @@
+.main-header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-header{
+    font-size:40px;
+    color: var(--secondary-color);
+    font-family: "Google Sans", sans-serif;
+    font-weight: 600;
+}
+
+.subtitle-header{
+    color: var(--text-main-color);
+    font-size: 20px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+}
+
+.text-header a{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .main-header{
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+
+    .FIAP-header-icon{
+        background: url(../icons/logo-fiap-gray.svg) no-repeat;
+        background-repeat: no-repeat;
+        visibility: visible;
+        width: 120px;
+        height: 40px;
+    }
+    
+}

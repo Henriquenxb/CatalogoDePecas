@@ -1,0 +1,21 @@
+.main-section h1, .main-section p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-main-color);
+}
+
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    gap: 20px;
+    margin: 0 0 60px 0 ;
+}
+
+.main-section  h1, .main-section p {
+    width: 95vw;
+}
+

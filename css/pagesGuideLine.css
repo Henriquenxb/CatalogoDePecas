@@ -1,0 +1,37 @@
+.pages-guide-line{
+    height: auto;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.ul-pages-guide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    
+}
+
+.ul-pages-guide a{
+    text-decoration: none;
+}
+
+.ul-pages-guide p {
+    font-family: var(--main-font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-main-color);
+}
+
+.ul-pages-guide a p{
+    color: var(--text-main-color);
+}
+
+.ul-pages-guide a p:hover{
+    color: var(--text-secondary-color);
+}
