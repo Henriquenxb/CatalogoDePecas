@@ -1,0 +1,92 @@
+.parts-card-section{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 20px;
+    margin: 0 0 60px 0 ;
+    width: 100%;
+}
+
+.link-part-card{
+    text-decoration: none;
+    color: var(--text-main-color);
+    font-family: var(--secondary-font-family);
+}
+
+.part-card{
+    background-color: var(--secondary-color);
+    height: 600px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.img-part-card img{
+    margin: 20px 30px 0;
+    width: 200px;
+    border-radius: 8px;
+}
+
+
+.header-part-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:end;
+    justify-content:space-between;
+    margin: 15px 0 10px;
+}
+
+.main-part-card{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.main-part-card p{
+    text-align:left;
+}
+
+.main-part-card ul{
+    margin: 40px 0 20px;
+    list-style-type:none;
+    align-items: flex-start;
+}
+
+.li-text-part-card{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-part{
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-main-color);
+}
+
+.id-part{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--text-secondary-color);
+}
+
+.description-part{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    margin-bottom: 5px;
+}
+.description-part h4{
+    text-align: left ;
+    
+}
+
+.li-text-part-card p{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration-line:underline;
+}
